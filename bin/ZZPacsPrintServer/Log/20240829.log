@@ -1,0 +1,74 @@
+11:04:54:729: Information: 启动胶片打印接收服务器中。。。。
+11:04:54:812: Information: 启动胶片打印接收服务器Success,端口：120 AE:ZZPrinter
+11:05:07:623: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:57559 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+11:05:08:008: Information: Creating new print job for film box 2.25.6045372062549029675107563902456443757
+11:05:08:217: Information: 图像存储发生异常。。。。FellowOakDicom.DicomDataException: Tag: (0020,000e) not found in dataset
+   在 FellowOakDicom.DicomDataset.ValidateDicomTag(DicomTag tag, DicomItem& item)
+   在 FellowOakDicom.DicomDataset.GetSingleValue[T](DicomTag tag)
+   在 ZZPacsPrintServer.QTStudyService.<AddImageItem>d__16.MoveNext() 位置 H:\dicom-print-server\support\ZZPacsPrintServer\ZZPacsPrintServer\ServiceForSqlite\QTStudyService.cs:行号 264
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 ZZPacsPrintServer.QTStudyService.<CreateStudyFromDicom>d__7.MoveNext() 位置 H:\dicom-print-server\support\ZZPacsPrintServer\ZZPacsPrintServer\ServiceForSqlite\QTStudyService.cs:行号 160
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZZPacsPrintServer.QTStudyService.<AddDicomImageAsync>d__2.MoveNext() 位置 H:\dicom-print-server\support\ZZPacsPrintServer\ZZPacsPrintServer\ServiceForSqlite\QTStudyService.cs:行号 31
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 ZZPacsPrintServer.PrintService.<>c.<<-cctor>b__30_0>d.MoveNext() 位置 H:\dicom-print-server\support\ZZPacsPrintServer\ZZPacsPrintServer\PrintService.cs:行号 59
+11:06:26:416: Information: 关闭胶片打印接收服务器。。。。
+11:07:10:502: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:57691 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+11:07:10:967: Information: Creating new print job for film box 2.25.298666628770268329137410444528473226832
+11:07:37:446: Information: 图像存储发生异常。。。。FellowOakDicom.DicomDataException: Tag: (0020,000e) not found in dataset
+   在 FellowOakDicom.DicomDataset.ValidateDicomTag(DicomTag tag, DicomItem& item)
+   在 FellowOakDicom.DicomDataset.GetSingleValue[T](DicomTag tag)
+   在 ZZPacsPrintServer.QTStudyService.<AddImageItem>d__16.MoveNext() 位置 H:\dicom-print-server\support\ZZPacsPrintServer\ZZPacsPrintServer\ServiceForSqlite\QTStudyService.cs:行号 264
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 ZZPacsPrintServer.QTStudyService.<CreateStudyFromDicom>d__7.MoveNext() 位置 H:\dicom-print-server\support\ZZPacsPrintServer\ZZPacsPrintServer\ServiceForSqlite\QTStudyService.cs:行号 160
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZZPacsPrintServer.QTStudyService.<AddDicomImageAsync>d__2.MoveNext() 位置 H:\dicom-print-server\support\ZZPacsPrintServer\ZZPacsPrintServer\ServiceForSqlite\QTStudyService.cs:行号 31
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 ZZPacsPrintServer.PrintService.<>c.<<-cctor>b__30_0>d.MoveNext() 位置 H:\dicom-print-server\support\ZZPacsPrintServer\ZZPacsPrintServer\PrintService.cs:行号 59
+11:07:51:764: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:57727 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+11:07:51:928: Information: Creating new print job for film box 2.25.290754481417259125025200985966296961976
+11:10:04:643: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:57837 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+11:10:05:171: Information: Creating new print job for film box 2.25.156452561819432145702237305676429267567
+11:15:56:180: Information: 图像存储发生异常。。。。FellowOakDicom.DicomDataException: Tag: (0008,0016) not found in dataset
+   在 FellowOakDicom.DicomDataset.ValidateDicomTag(DicomTag tag, DicomItem& item)
+   在 FellowOakDicom.DicomDataset.GetSingleValue[T](DicomTag tag)
+   在 FellowOakDicom.DicomFileMetaInformation..ctor(DicomDataset dataset)
+   在 FellowOakDicom.DicomFile..ctor(DicomDataset dataset)
+   在 ZZPacsPrintServer.QTStudyService.<AddImageItem>d__16.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 ZZPacsPrintServer.QTStudyService.<CreateStudyFromDicom>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZZPacsPrintServer.QTStudyService.<AddDicomImageAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 ZZPacsPrintServer.PrintService.<>c.<<-cctor>b__30_0>d.MoveNext()
+11:16:24:054: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:58154 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+11:16:24:561: Information: Creating new print job for film box 2.25.158018425667335060898925595138797582531
+02:09:35:855: Information: 启动胶片打印接收服务器中。。。。
+02:09:35:945: Information: 启动胶片打印接收服务器Success,端口：120 AE:ZZPrinter

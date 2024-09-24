@@ -1,0 +1,45 @@
+08:54:43:361: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:50520 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+08:54:52:485: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:50575 CallingAE:PRINTSCU CalledAE:ZZPrinter 
+08:54:52:669: Information: Creating new print job for film session 2.25.181838209895099326915209486384182461587
+08:55:39:621: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:50672 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+08:56:00:472: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:50726 CallingAE:PRINTSCU CalledAE:ZZPrinter 
+08:56:00:638: Information: Creating new print job for film session 2.25.6721824112369205992094474278537379717
+08:56:49:011: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:50883 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+08:56:55:832: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:50905 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+08:56:55:955: Information: Creating new print job for film box 2.25.326963706264767132787557637119157066700
+08:58:09:597: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:51053 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+08:58:15:892: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:51071 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+08:58:16:021: Information: Creating new print job for film box 2.25.142366038108570826272508671725484138590
+09:05:51:767: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:51688 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+09:05:58:460: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:51706 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+09:05:58:585: Information: Creating new print job for film box 2.25.102893080532872273754719685949318017660
+09:13:05:150: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:52303 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+09:13:12:973: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:52317 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+09:13:13:081: Information: Creating new print job for film box 2.25.56548710085890231669281848095930979804
+09:14:05:603: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:52411 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+09:14:12:895: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:52441 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+09:14:13:010: Information: Creating new print job for film box 2.25.319488355107570362064446076311316286336
+09:24:25:318: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:53131 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+09:24:32:968: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:53142 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+09:24:33:114: Information: Creating new print job for film box 2.25.57939109075032742854527555441669119368
+09:42:02:715: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:54397 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+09:42:10:346: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:54413 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+09:42:10:454: Information: Creating new print job for film box 2.25.291006204527675482197919125067110618960
+09:52:29:860: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:55055 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+09:52:37:641: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:55076 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+09:52:37:737: Information: Creating new print job for film box 2.25.332060296765862460397195730622173619248
+09:55:38:122: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:55296 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+09:55:45:402: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:55313 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+09:55:45:528: Information: Creating new print job for film box 2.25.326841579276584718475923063873186963689
+09:56:31:056: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:55371 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+09:56:43:912: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:55400 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+09:56:44:138: Information: Creating new print job for film box 2.25.87361435466177259596843112885785416545
+10:49:25:484: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:59287 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+10:49:33:866: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:59306 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+10:49:33:983: Information: Creating new print job for film box 2.25.145364258992727489063667133964061076504
+10:49:36:045: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:59309 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+10:49:36:151: Information: Creating new print job for film box 2.25.247435200166698002262103833524996692359
+10:49:37:984: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:59312 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+10:49:38:085: Information: Creating new print job for film box 2.25.102529713155258873913715436093625497840
+10:49:39:814: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:59316 CallingAE:DCMPSTATE CalledAE:ZZPrinter 
+10:49:39:891: Information: Creating new print job for film box 2.25.57134555237002186182118831579072379661

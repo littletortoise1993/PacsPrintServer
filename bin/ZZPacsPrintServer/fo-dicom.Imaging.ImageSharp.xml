@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>fo-dicom.Imaging.ImageSharp</name>
+    </assembly>
+    <members>
+        <member name="T:FellowOakDicom.Imaging.ImageSharpImageExtensions">
+            <summary>
+            Convenience class for non-generic access to <see cref="T:FellowOakDicom.Imaging.ImageSharpImage"/> image objects.
+            </summary>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.ImageSharpImageExtensions.AsSharpImage(FellowOakDicom.Imaging.IImage)">
+            <summary>
+            Convenience method to access ImageSharpImage <see cref="T:FellowOakDicom.Imaging.IImage"/> instance as ImageSharp <see cref="!:Bitmap"/>.
+            </summary>
+            <param name="iimage"><see cref="T:FellowOakDicom.Imaging.IImage"/> object.</param>
+            <returns><see cref="T:SixLabors.ImageSharp.Image"/> contents of <paramref name="image"/>.</returns>
+        </member>
+        <member name="T:FellowOakDicom.Imaging.ImageSharpImage">
+            <summary>
+            <see cref="T:FellowOakDicom.Imaging.IImage"/> implementation of a <see cref="T:SixLabors.ImageSharp.Image"/> in the <code>SixLabors.ImageSharp</code> namespace.
+            </summary>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.ImageSharpImage.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes an instance of the <see cref="T:FellowOakDicom.Imaging.ImageSharpImage"/> object.
+            </summary>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.ImageSharpImage.#ctor(System.Int32,System.Int32,FellowOakDicom.IO.PinnedIntArray,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Bgra32})">
+            <summary>
+            Initializes an instance of the <see cref="T:FellowOakDicom.Imaging.ImageSharpImage"/> object.
+            </summary>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+            <param name="pixels">Pixel array.</param>
+            <param name="image">Bitmap image.</param>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.ImageSharpImage.Render(System.Int32,System.Boolean,System.Boolean,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:FellowOakDicom.Imaging.ImageSharpImage.DrawGraphics(System.Collections.Generic.IEnumerable{FellowOakDicom.Imaging.Render.IGraphic})">
+            <inheritdoc />
+        </member>
+        <member name="M:FellowOakDicom.Imaging.ImageSharpImage.Clone">
+            <inheritdoc />
+        </member>
+        <member name="T:FellowOakDicom.Imaging.ImageSharpImageManager">
+            <summary>
+            Windows Forms-based image manager implementation.
+            </summary>
+        </member>
+    </members>
+</doc>

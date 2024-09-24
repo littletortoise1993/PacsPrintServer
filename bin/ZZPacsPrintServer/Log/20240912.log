@@ -1,0 +1,3 @@
+10:54:15:123: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:57060 CallingAE:DCMQRSCP CalledAE:ZZPrinter 
+10:54:25:250: Information: 接收到新请求：CallingHost： 127.0.0.1 CallingHostPort:57072 CallingAE:PRINTSCU CalledAE:ZZPrinter 
+10:54:25:416: Information: Creating new print job for film session 2.25.16545012549727703717841799058373512003

@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>fo-dicom.Imaging.Desktop</name>
+    </assembly>
+    <members>
+        <member name="T:FellowOakDicom.Imaging.WinFormsImageExtensions">
+            <summary>
+            Convenience class for non-generic access to <see cref="T:FellowOakDicom.Imaging.WinFormsImage"/> image objects.
+            </summary>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.WinFormsImageExtensions.AsClonedBitmap(FellowOakDicom.Imaging.IImage)">
+            <summary>
+            Convenience method to access WinForms <see cref="T:FellowOakDicom.Imaging.IImage"/> instance as WinForms <see cref="T:System.Drawing.Bitmap"/>.
+            The returned <see cref="T:System.Drawing.Bitmap"/> is cloned and must be disposed by caller.
+            </summary>
+            <param name="iimage"><see cref="T:FellowOakDicom.Imaging.IImage"/> object.</param>
+            <returns><see cref="T:System.Drawing.Bitmap"/> contents of <paramref name="image"/>.</returns>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.WinFormsImageExtensions.AsSharedBitmap(FellowOakDicom.Imaging.IImage)">
+            <summary>
+            Convenience method to access WinForms <see cref="T:FellowOakDicom.Imaging.IImage"/> instance as WinForms <see cref="T:System.Drawing.Bitmap"/>.
+            The returned <see cref="T:System.Drawing.Bitmap"/> will be disposed when the <see cref="T:FellowOakDicom.Imaging.IImage"/> is disposed.
+            </summary>
+            <param name="iimage"><see cref="T:FellowOakDicom.Imaging.IImage"/> object.</param>
+            <returns><see cref="T:System.Drawing.Bitmap"/> contents of <paramref name="image"/>.</returns>
+        </member>
+        <member name="T:FellowOakDicom.Imaging.WinFormsImage">
+            <summary>
+            <see cref="T:FellowOakDicom.Imaging.IImage"/> implementation of a <see cref="T:System.Drawing.Bitmap"/> in the <code>System.Drawing</code> namespace.
+            </summary>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.WinFormsImage.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes an instance of the <see cref="T:FellowOakDicom.Imaging.WinFormsImage"/> object.
+            </summary>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.WinFormsImage.#ctor(System.Int32,System.Int32,FellowOakDicom.IO.PinnedIntArray,System.Drawing.Bitmap)">
+            <summary>
+            Initializes an instance of the <see cref="T:FellowOakDicom.Imaging.WinFormsImage"/> object.
+            </summary>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+            <param name="pixels">Pixel array.</param>
+            <param name="image">Bitmap image.</param>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.WinFormsImage.Render(System.Int32,System.Boolean,System.Boolean,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:FellowOakDicom.Imaging.WinFormsImage.DrawGraphics(System.Collections.Generic.IEnumerable{FellowOakDicom.Imaging.Render.IGraphic})">
+            <inheritdoc />
+        </member>
+        <member name="M:FellowOakDicom.Imaging.WinFormsImage.Clone">
+            <inheritdoc />
+        </member>
+        <member name="T:FellowOakDicom.Imaging.WinFormsImageManager">
+            <summary>
+            Windows Forms-based image manager implementation.
+            </summary>
+        </member>
+        <member name="T:FellowOakDicom.Imaging.WPFImageExtensions">
+            <summary>
+            Convenience class for non-generic access to <see cref="T:FellowOakDicom.Imaging.WPFImage"/> image objects.
+            </summary>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.WPFImageExtensions.AsWriteableBitmap(FellowOakDicom.Imaging.IImage)">
+            <summary>
+            Convenience method to access WPF <see cref="T:FellowOakDicom.Imaging.IImage"/> instance as WPF <see cref="T:System.Windows.Media.Imaging.WriteableBitmap"/>.
+            The returned <see cref="T:System.Windows.Media.Imaging.WriteableBitmap"/> will be disposed when the <see cref="T:FellowOakDicom.Imaging.IImage"/> is disposed.
+            </summary>
+            <param name="image"><see cref="T:FellowOakDicom.Imaging.IImage"/> object.</param>
+            <returns><see cref="T:System.Windows.Media.Imaging.WriteableBitmap"/> contents of <paramref name="image"/>.</returns>
+        </member>
+        <member name="T:FellowOakDicom.Imaging.WPFImage">
+            <summary>
+            <see cref="T:FellowOakDicom.Imaging.IImage"/> implementation of a WPF <see cref="T:System.Windows.Media.ImageSource"/>.
+            </summary>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.WPFImage.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes an instance of the <see cref="T:FellowOakDicom.Imaging.WPFImage"/> object.
+            </summary>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.WPFImage.#ctor(System.Int32,System.Int32,FellowOakDicom.IO.PinnedIntArray,System.Windows.Media.Imaging.WriteableBitmap)">
+            <summary>
+            Initializes an instance of the <see cref="T:FellowOakDicom.Imaging.WPFImage"/> object.
+            </summary>
+            <param name="width">Image width.</param>
+            <param name="height">Image height.</param>
+            <param name="pixels">Array of pixels.</param>
+            <param name="image">Writeable bitmap image.</param>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.WPFImage.Render(System.Int32,System.Boolean,System.Boolean,System.Int32)">
+            <summary>
+            Renders the image given the specified parameters.
+            </summary>
+            <param name="components">Number of components.</param>
+            <param name="flipX">Flip image in X direction?</param>
+            <param name="flipY">Flip image in Y direction?</param>
+            <param name="rotation">Image rotation.</param>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.WPFImage.DrawGraphics(System.Collections.Generic.IEnumerable{FellowOakDicom.Imaging.Render.IGraphic})">
+            <summary>
+            Draw graphics onto existing image.
+            </summary>
+            <param name="graphics">Graphics to draw.</param>
+        </member>
+        <member name="M:FellowOakDicom.Imaging.WPFImage.Clone">
+            <summary>
+            Creates a deep copy of the image.
+            </summary>
+            <returns>Deep copy of this image.</returns>
+        </member>
+        <member name="T:FellowOakDicom.Imaging.WPFImageManager">
+            <summary>
+            WPF based implementation of the <see cref="T:FellowOakDicom.Imaging.ImageManager"/>.
+            </summary>
+        </member>
+        <member name="T:FellowOakDicom.Printing.FilmBoxExtensions">
+            <summary>
+            Extension methods on instance of the <see cref="T:FellowOakDicom.Printing.FilmBox"/> class.
+            </summary>
+        </member>
+        <member name="M:FellowOakDicom.Printing.FilmBoxExtensions.GetSizeInInch(FellowOakDicom.Printing.FilmBox)">
+            <summary>
+            Get the film box size in inches.
+            </summary>
+            <param name="filmBox">Film box object.</param>
+            <returns>Size in inches of film box.</returns>
+        </member>
+        <member name="M:FellowOakDicom.Printing.FilmBoxExtensions.Print(FellowOakDicom.Printing.FilmBox,System.Drawing.Graphics,System.Drawing.Rectangle,System.Int32)">
+            <summary>
+            Print a film box on specified graphics.
+            </summary>
+            <param name="filmBox">Film box.</param>
+            <param name="graphics">Graphics on which to draw the film box.</param>
+            <param name="marginBounds">Margin bounds.</param>
+            <param name="imageResolution">Image resolution.</param>
+        </member>
+        <member name="M:FellowOakDicom.Printing.FilmBoxExtensions.ToRectF(System.Drawing.Rectangle)">
+            <summary>
+            Convert <see cref="T:System.Drawing.Rectangle"/> object into <see cref="T:FellowOakDicom.Imaging.Mathematics.RectF"/> object.
+            </summary>
+            <param name="rectangle">Rectangle to convert.</param>
+            <returns>Rectangle expressed as <see cref="T:FellowOakDicom.Imaging.Mathematics.RectF"/>.</returns>
+        </member>
+        <member name="T:FellowOakDicom.Printing.ImageBoxExtensions">
+            <summary>
+            Extension methods to support <see cref="T:FellowOakDicom.Printing.ImageBox"/> class.
+            </summary>
+        </member>
+        <member name="M:FellowOakDicom.Printing.ImageBoxExtensions.Print(FellowOakDicom.Printing.ImageBox,System.Drawing.Graphics,FellowOakDicom.Imaging.Mathematics.RectF,System.Int32)">
+            <summary>
+            Prints an image box onto the specified graphics.
+            </summary>
+            <param name="imageBox">Image box to print.</param>
+            <param name="graphics">Graphics in which image box should be contained.</param>
+            <param name="box">Rectangle within which the image box should be contained.</param>
+            <param name="imageResolution">Image resolution.</param>
+        </member>
+        <member name="M:FellowOakDicom.Printing.ImageBoxExtensions.FillBox(FellowOakDicom.Printing.FilmBox,FellowOakDicom.Imaging.Mathematics.RectF,System.Drawing.Graphics)">
+            <summary>
+            If requested, fill the box with black color.
+            </summary>
+            <param name="filmBox">Film box.</param>
+            <param name="box">Rectangle.</param>
+            <param name="graphics">Graphics.</param>
+        </member>
+        <member name="M:FellowOakDicom.Printing.ImageBoxExtensions.DrawBitmap(System.Drawing.Graphics,FellowOakDicom.Imaging.Mathematics.RectF,System.Drawing.Image,System.Int32,System.String)">
+            <summary>
+            Draw image bitmap in the specified rectangle.
+            </summary>
+            <param name="graphics">Graphics.</param>
+            <param name="box">Rectangle in which to draw.</param>
+            <param name="bitmap">Image to draw.</param>
+            <param name="imageResolution">Image resolution.</param>
+            <param name="emptyImageDensity">Empty image density.</param>
+        </member>
+    </members>
+</doc>

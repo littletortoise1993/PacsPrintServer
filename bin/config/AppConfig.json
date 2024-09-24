@@ -1,0 +1,6 @@
+{
+    "DCMFolder": "H:/dicom-print-server/package/DCMData",
+    "DCMJpgFolder": "H:/dicom-print-server/package/DCMJpg",
+    "ZZPacsPrintServerPath": "H:/dicom-print-server/package/ZZPacsPrintServer",
+    "ZZPacsPrintSCUPath": "H:/dicom-print-server/package/ZZPacsPrintSCU"
+}
